@@ -5,7 +5,7 @@ const app = express();
 connection();
 app.use(express.json())
 app.use(router);
-app.listen(3000, (err)=>{
+app.listen(3001, (err)=>{
     if(err){
         console.log(err);
     }else{
